@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Secret Farm</title>
+
+      <link rel="stylesheet" type="text/css" href="{% static "vendor/bootstrap/mint-bootstrap.css" %}">
+      <link rel="stylesheet" type="text/css" href="{% static "css/frontpage.css" %}">
+  </head>
+  <body>
+
+      <nav id="nav" class="navbar fixed-top navbar-expand-md navbar-light">
+        <a id="nav-brand" class="navbar-brand" href="#">SecretFarm Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="nav-list-1" class="navbar-nav mr-auto">
+            <!--<li class="nav-item">
+                <button class="navbar"><span class="navbar-toggler-icon"></span></button>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang Kami<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Platform Kami</a>
+            </li>
+          </ul>
+          <ul id="nav-list-2" class="navbar-nav ml-auto">
+            <!--<li class="nav-item">
+                <button class="navbar"><span class="navbar-toggler-icon"></span></button>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog<span class="sr-only">(current)</span></a>
+            </li>
+            <li id="db-nav-item" class="nav-item">
+              <a class="nav-link" href="#">Dashboard</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div id="we-are" class="row">
+          <div id="title" class="col-md-6">
+            <div class="row">
+              <div class="display-4">Secret</div>
+            </div>
+            <div class="row">
+              <div id="title2" class="display-4">Farm</div>
+            </div>
+            <hr id="hr-title">
+          </div>
+          <div class="col-md-6">
+            <div>What is Secret Farm</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container img-container">
+        <div class="row">
+          <img id="img-farmer" class="img-fluid" alt="Farmer" src="{% static "img/index.jpg" %}">
+        </div>
+        <div class="top-left">
+          <a href="">See Our Journey <object class="arrow">&#8594;</object></a>
+        </div>
+      </div>
+
+      <div id="platform-kami" class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div id="row-platform-text" class="row text-center">
+            <div id="col-platform-text" class="col">
+              <p id="p-platform">Platform Kami</p>
+              <div class="display-4">Smart Farming for a country in transition</div>
+              <div>We’ve created Indonesia's largest agricultural services platform — farm technology, advising and finance — to help small family farms be profitable. Our economic research keeps things in perspective.</div>
+            </div>
+          </div>
+          <div class="row row-img-platform">
+            <div class="col-md-6 img-col-platform">
+              <img class="img-platform img-fluid" src="{% static "img/farming3.jpg" %}" alt="Snow">
+              <div class="top-left">Farm Tech <object class="arrow">&#8594;</object></div>
+            </div>
+            <div class="col-md-6 img-col-platform img-bot">
+              <img class="img-platform img-fluid" src="{% static "img/farming4.jpg" %}" alt="Snow">
+              <div class="top-left">Argonomy Service <object class="arrow">&#8594;</object></div>
+            </div>
+          </div>
+          <div class="row row-img-platform">
+            <div class="col-md-6 img-col-platform">
+              <img class="img-platform img-fluid" src="{% static "img/farming2.jpeg" %}" alt="Snow">
+              <div class="top-left">Economic Research <object class="arrow">&#8594;</object></div>
+            </div>
+            <div class="col-md-6 img-col-platform img-bot">
+              <img class="img-platform img-fluid" src="{% static "img/EH4N6T.jpg" %}" alt="Snow">
+              <div class="top-left">Farm Finance <object class="arrow">&#8594;</object></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+      
+  </body>
+
+  <script type="text/javascript" src="{% static "vendor/jquery/jquery.js" %}"></script>
+  <script type="text/javascript" src="{% static "vendor/popper/popper.js" %}"></script>
+  <script type="text/javascript" src="{% static "vendor/bootstrap/bootstrap.js" %}"></script>
+</html>
